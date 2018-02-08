@@ -1,4 +1,4 @@
-package io.syndesis.extension;
+package io.syndesis.example.extension.tp3;
 
 import java.util.LinkedList;
 import java.util.List;

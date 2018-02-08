@@ -1,4 +1,4 @@
-package io.syndesis.extension;
+package io.syndesis.example.extension.tp3;
 
 import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlElementWrapper;
 import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlProperty;
