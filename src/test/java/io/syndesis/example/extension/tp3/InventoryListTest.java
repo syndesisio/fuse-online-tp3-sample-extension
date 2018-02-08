@@ -1,4 +1,4 @@
-package io.syndesis.extension;
+package io.syndesis.example.extension.tp3;
 
 import org.junit.Assert;
 import org.junit.Test;

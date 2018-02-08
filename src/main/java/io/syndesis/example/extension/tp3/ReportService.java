@@ -1,4 +1,4 @@
-package io.syndesis.extension;
+package io.syndesis.example.extension.tp3;
 
 import org.apache.camel.Body;
 import org.apache.camel.Handler;
@@ -12,7 +12,7 @@ import java.util.stream.Collectors;
 public class ReportService {
 
 	@Handler
-	public io.syndesis.extension.TodoReport generateReport(@Body io.syndesis.extension.InventoryList inventoryList) {
+	public TodoReport generateReport(@Body InventoryList inventoryList) {
 
 		List<Item> damagedItems = inventoryList.getItems().stream()
 				.filter(Item::isDamaged)
