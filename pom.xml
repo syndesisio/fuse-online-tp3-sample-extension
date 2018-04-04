@@ -94,6 +94,7 @@
       <plugin>
         <groupId>io.syndesis.extension</groupId>
         <artifactId>extension-maven-plugin</artifactId>
+        <version>${syndesis.version}</version>
         <configuration>
           <listAllArtifacts>false</listAllArtifacts>
         </configuration>
